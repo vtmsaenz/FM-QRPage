@@ -1,0 +1,55 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    padding: 2rem 0 0 2rem;
+}
+
+p {
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: grey;
+}
+
+
+.container {
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    padding: .7rem;
+    margin: auto;
+    min-width: 300px;
+    max-width: 600px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 4px grey;
+    
+
+}
+
+.qrTitle {
+    font-weight:bold;
+    color: navy;
+    font-size: 1.5rem;
+    
+}
+
+.qr {
+    width: 15rem;
+
+}
+
+.qrimage {
+    width: 90%;
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For mobile phones: */
+   .container {
+    width: 350px;
+    }
+    body {
+        
+        padding: 7rem 0 0 7rem; 
+    }
+  }
